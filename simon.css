@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+body {
+  font-family: Oswald;
+  background-color: #3f3f3f;
+}
+
+.simonContainer {
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  padding: 1px;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.simonTopHalf, simonBottomHalf {
+  display: block;
+  width: 100%;
+}
+
+.centerCircle {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  position: absolute;
+  top: 126px;
+  left: 126px;
+  z-index: 2;
+  border-radius: 100%;
+}
+
+.centerCircle h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+  line-height: 95px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.btnLabels {
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnLabels p {
+  color: #555;
+  margin: 0 17px 3px;
+  text-align: left;
+}
+
+.centerCircleBtmHalf {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#powerButton {
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  background-color: #000080;
+  margin-right: 30px;
+}
+
+.powerOn {
+  background-color: #3333ff !important;
+  box-shadow: 0 0 5px 2px #3333ff;
+}
+
+#counterDisplay {
+  border-radius: 0.3em;
+  height: 60px;
+  width: 60px;
+  background-color: #660000;
+}
+
+#scoreDisplay {
+  color: red;
+  font-size: 2.7em;
+  font-family: Roboto Mono;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+#strictButton {
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  background-color: #808000;
+  margin-left: 30px;
+}
+
+.strictOn {
+  background-color: #ffff33 !important;
+  box-shadow: 0 0 5px 1px #ffff33;
+}
+
+.gameButton {
+  display: inline-block;  
+  width: 212px;
+  height: 212px;  
+  margin-left: 25px;
+  margin-top: 24px;
+}
+
+#green {
+  background-color: #00b020;
+  border-top-left-radius: 100%;
+}
+
+.greenActive {
+  box-sizing: border-box;
+  background-color: #00e62a !important;
+  border-left: 3px solid #222;
+  border-top: 3px solid #222;
+}
+
+
+#red {
+  background-color: #e00606;
+  border-top-right-radius: 100%;  
+}
+
+.redActive {
+  box-sizing: border-box;
+  background-color: #ff4d4d !important;
+  border-top: 3px solid #222;
+  border-right: 3px solid #222;
+}
+
+#yellow {
+  background-color: #ffcc00;
+  border-bottom-left-radius: 100%;
+}
+
+.yellowActive {
+  box-sizing: border-box;
+  background-color: #ffe066 !important;
+  border-bottom: 3px solid #222;
+  border-left: 3px solid #222;
+}
+
+#blue {
+  background-color: #0039e6;
+  border-bottom-right-radius: 100%;
+}
+
+.blueActive {
+  box-sizing: border-box;
+  background-color: #3366ff !important;
+  border-bottom: 3px solid #222;
+  border-right: 3px solid #222;
+}
